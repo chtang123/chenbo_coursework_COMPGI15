@@ -67,21 +67,7 @@ optimization_df = optimization_df.append(optimized_list)
 optimization_df.to_csv('output/RidgeOptimization.csv')
 
 
-# In[2]:
 
-# Save notebook as py 
-get_ipython().system(u'jupyter nbconvert --to=python Ridge_Optimization.ipynb')
-
-
-# In[ ]:
-
-
-
-=======
-
-# coding: utf-8
-
-# In[3]:
 
 # All the necessary libs
 import pandas as pd
@@ -150,14 +136,4 @@ optimization_df = optimization_df.append(optimized_list)
 optimization_df.to_csv('output/RidgeOptimization.csv')
 
 
-# In[2]:
 
-# Save notebook as py 
-get_ipython().system(u'jupyter nbconvert --to=python Ridge_Optimization.ipynb')
-
-
-# In[ ]:
-
-
-
->>>>>>> b87fc3811e42ab51738dd141760a7221e7902d47

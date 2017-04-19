@@ -61,8 +61,4 @@ for i,model in enumerate(models):
 ensemble_predictions.relevance = ensemble_predictions.relevance.apply(lambda x: post_process_preds(x))
 ensemble_predictions.to_csv('output/EnsemblePredictions.csv')
 #%%
-#check model predictions ( min & max )
-for model in models:
-    print('Model: {} \n Min: {:f} \t Max: {:f}'.format(model,min(predictions[model]['relevance']),max(predictions[model]['relevance'])))
 
-print('Model: Ensemble \n Min: {:f} \t Max: {:f}'.format(min(ensemble_predictions['relevance']),max(ensemble_predictions['relevance'])))

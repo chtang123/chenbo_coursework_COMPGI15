@@ -10,7 +10,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Lasso
 
 
-# In[6]:
 
 # Load training data
 X = f.load_obj('input/X_train')
@@ -63,21 +62,9 @@ optimization_df = optimization_df.append(optimized_list)
 optimization_df.to_csv('output/LassoOptimization.csv')
 
 
-# In[8]:
-
-# Save notebook as py 
-get_ipython().system(u'jupyter nbconvert --to=python Lasso_Optimization.ipynb')
-
-
-# In[ ]:
 
 
 
-=======
-
-# coding: utf-8
-
-# In[3]:
 
 # All the necessary libs
 import pandas as pd
@@ -91,7 +78,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import Lasso
 
 
-# In[6]:
 
 # Load training data
 X = f.load_obj('input/X_train')
@@ -144,14 +130,3 @@ optimization_df = optimization_df.append(optimized_list)
 optimization_df.to_csv('output/LassoOptimization.csv')
 
 
-# In[8]:
-
-# Save notebook as py 
-get_ipython().system(u'jupyter nbconvert --to=python Lasso_Optimization.ipynb')
-
-
-# In[ ]:
-
-
-
->>>>>>> b87fc3811e42ab51738dd141760a7221e7902d47

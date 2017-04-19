@@ -10,9 +10,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import ElasticNet
 
 
-# In[5]:
-
-# Load training data
 X = f.load_obj('input/X_train')
 y = f.load_obj('input/Y_train')
 
@@ -65,21 +62,9 @@ optimization_df = optimization_df.append(optimized_list)
 optimization_df.to_csv('output/ElasticNetOptimization.csv')
 
 
-# In[1]:
-
-# Save notebook as py 
-get_ipython().system(u'jupyter nbconvert --to=python ElasticNet_Optimization.ipynb')
-
-
-# In[ ]:
 
 
 
-=======
-
-# coding: utf-8
-
-# In[2]:
 
 # All the necessary libs
 import pandas as pd
@@ -148,14 +133,3 @@ optimization_df = optimization_df.append(optimized_list)
 optimization_df.to_csv('output/ElasticNetOptimization.csv')
 
 
-# In[1]:
-
-# Save notebook as py 
-get_ipython().system(u'jupyter nbconvert --to=python ElasticNet_Optimization.ipynb')
-
-
-# In[ ]:
-
-
-
->>>>>>> b87fc3811e42ab51738dd141760a7221e7902d47
