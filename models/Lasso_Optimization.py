@@ -1,10 +1,4 @@
-<<<<<<< HEAD
 
-# coding: utf-8
-
-# In[3]:
-
-# All the necessary libs
 import pandas as pd
 import numpy as np
 import Utils as f

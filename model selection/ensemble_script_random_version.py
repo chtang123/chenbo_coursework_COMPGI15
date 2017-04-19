@@ -1,7 +1,3 @@
-
-
-from config_IgorKostia import * 
- 
 import os
 import pandas as pd
 import xgboost as xgb 

@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar  7 21:59:22 2017
-
-@author: Chris
-"""
 
 from sklearn.metrics import mean_squared_error
 import pandas as pd
